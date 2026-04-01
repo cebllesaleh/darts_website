@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <!-- Primary SEO -->
+    <title>Bermuda Darts League | Official Site – Teams, Fixtures &amp; Standings</title>
+    <meta name="description" content="The official home of the Bermuda Darts League. View teams, fixtures, standings, league rules, photo gallery, and practice games for all players across the Island. Join the premier darts competition in Bermuda.">
+    <meta name="keywords" content="Bermuda Darts League, darts Bermuda, Bermuda sport, darts fixtures, darts standings, darts teams, 501 darts, cricket darts, Bermuda darts association, league darts, Sandys Boat Club, Filipino darts, Vasco Da Gama">
+    <meta name="author" content="Bermuda Darts League">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="BM">
+    <meta name="theme-color" content="#0a0e17">
+    <link rel="canonical" href="https://www.bermudadarts.com/">
+    <link rel="sitemap" type="application/xml" href="https://www.bermudadarts.com/sitemap.xml">
+
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bermuda Darts League | Official Site – Teams, Fixtures &amp; Standings">
+    <meta property="og:description" content="The official home of the Bermuda Darts League. View teams, fixtures, standings, league rules, photo gallery, and practice games for all players across the Island.">
+    <meta property="og:image" content="https://www.bermudadarts.com/images/logos/Darts%20logo.webp">
+    <meta property="og:image:alt" content="Bermuda Darts League logo">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://www.bermudadarts.com/">
+    <meta property="og:site_name" content="Bermuda Darts League">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bermuda Darts League | Official Site – Teams, Fixtures &amp; Standings">
+    <meta name="twitter:description" content="The official home of the Bermuda Darts League. View teams, fixtures, standings, league rules, and practice games for all players across the Island.">
+    <meta name="twitter:image" content="https://www.bermudadarts.com/images/logos/Darts%20logo.webp">
+    <meta name="twitter:image:alt" content="Bermuda Darts League logo">
+
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/webp" href="images/logos/Darts logo.webp">
+    <link rel="apple-touch-icon" href="images/logos/Darts logo.webp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Performance: Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Structured Data (JSON-LD) – Rich Snippets for Search -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsOrganization",
+      "name": "Bermuda Darts League",
+      "alternateName": "BDL",
+      "url": "https://www.bermudadarts.com/",
+      "logo": "https://www.bermudadarts.com/images/logos/Darts%20logo.webp",
+      "image": "https://www.bermudadarts.com/images/logos/Darts%20logo.webp",
+      "description": "The official Bermuda Darts League, bringing together players from across the Island for competitive darts. Features teams, fixtures, standings, league rules, photo gallery, and practice games.",
+      "sport": "Darts",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Bermuda"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@bermudadartsleague.com",
+        "contactType": "customer service",
+        "areaServed": "Bermuda",
+        "availableLanguage": "English"
+      },
+      "sameAs": []
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Bermuda Darts League",
+      "url": "https://www.bermudadarts.com/",
+      "description": "Official website for the Bermuda Darts League – teams, fixtures, standings, rules, and practice games.",
+      "publisher": {
+        "@type": "SportsOrganization",
+        "name": "Bermuda Darts League",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.bermudadarts.com/images/logos/Darts%20logo.webp"
+        }
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.bermudadarts.com/"
+      }]
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-inner">
+                <img src="images\logos\Darts logo.webp" alt="Bermuda Darts League logo" class="league-logo">
+                <div class="header-text">
+                    <h1>Bermuda Darts </h1>
+                    <p class="tagline">Precision • Competition • Excellence</p>
+                </div>
+            </div>
+        </header>
+
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <nav class="nav-desktop">
+            <button class="nav-btn active" data-section="homepage" onclick="showSection('homepage')">Homepage</button>
+            <button class="nav-btn" data-section="about" onclick="showSection('about')">About</button>
+            <button class="nav-btn" data-section="rules" onclick="showSection('rules')">League Rules</button>
+            <button class="nav-btn" data-section="teams" onclick="showSection('teams')">Teams</button>
+            <button class="nav-btn" data-section="scheduleStandings" onclick="showSection('scheduleStandings')">Schedule &amp; Standings</button>
+            <button class="nav-btn" data-section="practice" onclick="showSection('practice')">Practice</button>
+            <button class="nav-btn" data-section="gallery" onclick="showSection('gallery')">Photo Gallery</button>
+            <button class="nav-btn" data-section="contact" onclick="showSection('contact')">Contact</button>
+        </nav>
+
+        <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+        <div class="nav-drawer" id="navDrawer" aria-hidden="true">
+            <button class="nav-drawer-close" aria-label="Close menu">&times;</button>
+            <nav class="nav-drawer-links">
+                <button class="nav-btn active" data-section="homepage" onclick="showSection('homepage')">Homepage</button>
+                <button class="nav-btn" data-section="about" onclick="showSection('about')">About</button>
+                <button class="nav-btn" data-section="rules" onclick="showSection('rules')">League Rules</button>
+                <button class="nav-btn" data-section="teams" onclick="showSection('teams')">Teams</button>
+                <button class="nav-btn" data-section="scheduleStandings" onclick="showSection('scheduleStandings')">Schedule &amp; Standings</button>
+                <button class="nav-btn" data-section="practice" onclick="showSection('practice')">Practice</button>
+                <button class="nav-btn" data-section="gallery" onclick="showSection('gallery')">Photo Gallery</button>
+                <button class="nav-btn" data-section="contact" onclick="showSection('contact')">Contact</button>
+            </nav>
+        </div>
+
+        <!-- Homepage Section -->
+        <section id="homepage" class="section active">
+            <h2>Welcome</h2>
+            <p class="homepage-intro">
+                Welcome to the Bermuda Darts League. Stay up to date with upcoming events and highlights from across the league.
+            </p>
+
+            <!-- Event Flyers – Bulletin Board -->
+            <div class="homepage-section">
+                <h3 class="committee-heading">Upcoming Events & Announcements</h3>
+                <div class="bulletin-board">
+                    <div class="bulletin-board-surface">
+                        <div class="notice-board-events" id="bulletinFlyers">
+                            <!-- Flyers populated by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- League Spotlight -->
+            <div class="committee-section homepage-section">
+                <h3 class="committee-heading">League Spotlight</h3>
+                <p class="committee-intro">Recent photos and highlights from match nights and events.</p>
+                <div class="homepage-images-grid" id="homepageImagesGrid">
+                    <!-- Images populated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About the Bermuda Darts League</h2>
+            <div class="standings-link" style="text-align: left; margin-top: 1rem;">
+                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 1.5rem;">
+                    The Darts League brings together all levels of players from across the Island
+                    for a fast-paced, competitive season of high-quality darts. Our goal is to provide
+                    a professional, welcoming environment for all players and fans of the game.
+                </p>
+                <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem;">
+                    Each week, teams face off in home and away fixtures, battling for points that
+                    decide the league table and playoff positions. Matches follow official rules,
+                    with formats including 501 and Competitions to test accuracy, consistency, and
+                    composure under pressure.
+                </p>
+                <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem;">
+                    Use the tabs above to explore the league:
+                </p>
+                <ul style="color: var(--text-secondary); font-size: 1.05rem; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                    <li><strong>Teams</strong> – meet all squads, captains, and records.</li>
+                    <li><strong>Schedule &amp; Standings</strong> – view fixtures and jump to the live league table.</li>
+                    <li><strong>Practice</strong> – run 501 and Cricket practice games.</li>
+                    <li><strong>Photo Gallery</strong> – upload and browse league photos.</li>
+                    <li><strong>League Rules</strong> – read the official rules for all matches.</li>
+                </ul>
+                <p style="color: var(--text-secondary); font-size: 1.05rem;">
+                    Whether you are a player, captain, or supporter, this site is your hub for all
+                    Premier Darts League information throughout the season.
+                </p>
+            </div>
+
+            <!-- Committee Members -->
+            <div class="committee-section">
+                <h3 class="committee-heading">League Committee</h3>
+                <p class="committee-intro">
+                    The Bermuda Darts League is run by a dedicated committee who organise fixtures,
+                    manage rules, and help grow the game across the island.
+                </p>
+                <div class="committee-grid">
+                    <div class="committee-card">
+                        <h4 class="committee-name">Mike Butterfield</h4>
+                        <p class="committee-role">President</p>
+                        <p class="committee-detail">Oversees league operations and long‑term planning.</p>
+                    </div>
+                    <div class="committee-card">
+                        <h4 class="committee-name">Ceblle Saleh</h4>
+                        <p class="committee-role">League Secretary</p>
+                        <p class="committee-detail">Coordinates fixtures, results and official communication.</p>
+                    </div>
+                    <div class="committee-card">
+                        <h4 class="committee-name">Aaron Carvelho</h4>
+                        <p class="committee-role">Treasurer</p>
+                        <p class="committee-detail">Manages league finances, fees and prize funds.</p>
+                    </div>
+                    <div class="committee-card">
+                        <h4 class="committee-name"></h4>
+                        <p class="committee-role">Player Representative</p>
+                        <p class="committee-detail">Represents player feedback and supports new members.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- League Rules Section -->
+        <section id="rules" class="section">
+            <div class="rules-header">
+                <h2>League Rules</h2>
+                <div class="rules-pdf-container">
+                    <a href="league-rules.pdf" target="_blank" class="rules-pdf-link">
+                        <span>📄</span>
+                        <span>League Rules PDF</span>
+                       
+                        
+                    </a>
+                </div>
+            </div>
+
+            <div class="standings-link" style="text-align: left; margin-top: 1rem;">
+                <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem;">
+                    These rules outline how matches in the Bermuda Darts League are played and how
+                    points are awarded. Captains and players should review them regularly.
+                </p>
+                <ul style="color: var(--text-secondary); font-size: 1.05rem; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                    <li><strong>Match Format</strong> – Standard league nights consist of 1001, 501 singles, 501 doubles, as agreed by the fixtures.</li>
+                    <li><strong>Scoring</strong> – 501 legs are straight start, double finish unless otherwise stated by the competition rules.</li>
+                    <li><strong>Arrivals</strong> – Teams should arrive at least 15 minutes before the scheduled start time to allow for warm‑up and registration.</li>
+                    <li><strong>Conduct</strong> – Respectful behaviour is required at all times. Unsporting conduct may result in warnings, leg penalties, or match forfeiture.</li>
+                    <li><strong>Results</strong> – Captains are responsible for confirming and submitting results immediately after each match night.</li>
+                </ul>
+                <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 2rem;">
+                    For any disputes or clarifications, please contact the league committee. Updates to these rules
+                    will be communicated to all captains before they take effect.
+                </p>
+            </div>
+        </section>
+
+        <!-- Teams Section -->
+        <section id="teams" class="section">
+            <h2>League Teams</h2>
+            <div class="teams-grid">
+                <div class="team-card">
+                    <img src="images\gallery\Team photo\sbc1.webp" alt="Sandys Boat Club 1 darts team" class="team-image">
+                    <h3 class="team-name">Sandys Boat Club&nbsp;1</h3>
+                    <p class="team-info">Captain: Richard Phillips</p>
+                </div>
+                <div class="team-card">
+                    <img src="images\gallery\Team photo\filipino 3.webp" alt="Filipino 3 darts team" class="team-image">
+                    <h3 class="team-name">Filipino&nbsp;3</h3>
+                    <p class="team-info">Captain: Noel Macapugay </p>
+                </div>
+                <div class="team-card">
+                    <img src="images\gallery\Team photo\azores.webp" alt="Casa Dos Azores darts team" class="team-image">
+                    <h3 class="team-name">Casa Dos Azores</h3>
+                    <p class="team-info">Captain: Angelo Costa</p>
+                </div>
+                <div class="team-card">
+                    <img src="images\gallery\Team photo\sbc3.webp" alt="Sandys Boat Club 3 darts team" class="team-image">
+                    <h3 class="team-name">Sandys Boat Club&nbsp;3</h3>
+                    <p class="team-info">Captain: Dianne Christie</p>
+                </div>
+                <div class="team-card">
+                    <img src="images\gallery\Team photo\vasco.webp" alt="Vasco Da Gama darts team" class="team-image">
+                    <h3 class="team-name">Vasco Da Gama</h3>
+                    <p class="team-info">Captain: Marco Pacheco</p>
+                </div>
+                <div class="team-card">
+                    <img src="images\gallery\Team photo\filipino.webp" alt="Filipino 1 darts team" class="team-image">
+                    <h3 class="team-name">Filipino&nbsp;1</h3>
+                    <p class="team-info">Captain: Hector Santiago</p>
+                </div>
+                <div class="team-card">
+                    <img src="images\gallery\stgeo.webp" alt="St. Georges Dingy Club darts team" class="team-image">
+                    <h3 class="team-name">St. Georges Dingy Club</h3>
+                    <p class="team-info">Captain: Boyd Lewis</p>
+                </div>
+                <div class="team-card">
+                    <img src="images\gallery\sandysbc (1).webp" alt="Sandys Boat Club 2 darts team" class="team-image">
+                    <h3 class="team-name">Sandys Boat Club&nbsp;2</h3>
+                    <p class="team-info">Captain: Chris Bromby </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule & Standings Section -->
+        <section id="scheduleStandings" class="section">
+            <h2>Schedule &amp; Standings</h2>
+
+            <div class="standings-link" style="margin-top: 2rem;">
+                <h2>View Official Standings</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+                    Check out the complete league standings, statistics, and player rankings
+                </p>
+                <a href="https://bermudadartsassociation.leaguerepublic.com/standingsForDate/721555390/2/-1/-1.html" target="_blank" id="standingsLink">
+                    View Standings →
+                </a>
+            </div>
+
+            <div class="committee-section" style="margin-top: 3rem;">
+                <h3 class="committee-heading">Forms</h3>
+                <p class="committee-intro">League schedule, registration, match sheets, and other official documents.</p>
+                <div class="rules-pdf-container schedule-pdfs">
+                    <a href="darts schedule 25 26.pdf" target="_blank" rel="noopener noreferrer" class="rules-pdf-link">
+                        <span>📄</span>
+                        <span>Schedule PDF</span>
+                    </a>
+                    <a href="images\flyers\registration form .pdf" target="_blank" rel="noopener noreferrer" class="rules-pdf-link">
+                        <span>📋</span>
+                        <span>League registration</span>
+                    </a>
+                    <a href="images\flyers\Score Sheet.pdf" target="_blank" rel="noopener noreferrer" class="rules-pdf-link">
+                        <span>📋</span>
+                        <span>League Scorecard</span>
+                    </a>
+                    <a href="images\flyers\Score Sheet.pdf" target="_blank" rel="noopener noreferrer" class="rules-pdf-link">
+                        <span>📋</span>
+                        <span>Brackets</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practice Section -->
+        <section id="practice" class="section">
+            <h2>Practice Arena</h2>
+            
+            <div class="practice-modes" id="modeSelection">
+                <div class="mode-card" onclick="startGame('501')">
+                    <h3>501</h3>
+                    <p>Start at 501 and count down to exactly 0. Classic darts scoring!</p>
+                </div>
+                <div class="mode-card" onclick="startGame('cricket')">
+                    <h3>Cricket</h3>
+                    <p>Close out numbers 15-20 and bullseye by hitting each three times.</p>
+                </div>
+            </div>
+
+            <!-- 501 Game -->
+            <div class="game-interface" id="game501">
+                <div class="game-header">
+                    <button class="btn back-btn" onclick="backToModes()">← Back</button>
+                    <h3 style="font-family: 'Orbitron', sans-serif; font-size: 2rem;">501 Game - Two Players</h3>
+                    <button class="btn" onclick="resetGame('501')">New Game</button>
+                </div>
+                
+                <div class="players-container">
+                    <!-- Player 1 -->
+                    <div class="player-section" id="player1Section">
+                        <div class="player-header">
+                            <h4 class="player-name" id="player1Name">Player 1</h4>
+                            <div class="current-player-indicator" id="player1Indicator">CURRENT</div>
+                        </div>
+                        <div style="text-align: center; margin-bottom: 1rem;">
+                            <div style="color: var(--text-secondary); font-size: 1rem; margin-bottom: 0.5rem;">REMAINING</div>
+                            <div class="score-display player-score" id="score501Player1">501</div>
+                        </div>
+                        <div class="throw-history" id="history501Player1">
+                            <h5 style="margin-bottom: 0.5rem; color: var(--neon-green); font-size: 0.9rem;">History</h5>
+                        </div>
+                    </div>
+
+                    <!-- Player 2 -->
+                    <div class="player-section" id="player2Section">
+                        <div class="player-header">
+                            <h4 class="player-name" id="player2Name">Player 2</h4>
+                            <div class="current-player-indicator" id="player2Indicator" style="display: none;">CURRENT</div>
+                        </div>
+                        <div style="text-align: center; margin-bottom: 1rem;">
+                            <div style="color: var(--text-secondary); font-size: 1rem; margin-bottom: 0.5rem;">REMAINING</div>
+                            <div class="score-display player-score" id="score501Player2">501</div>
+                        </div>
+                        <div class="throw-history" id="history501Player2">
+                            <h5 style="margin-bottom: 0.5rem; color: var(--neon-green); font-size: 0.9rem;">History</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="throw-input">
+                    <input type="number" id="throwTotal" placeholder="Total for 3 darts" min="0" max="180">
+                    <button class="btn" onclick="recordThrow501()">Record Throw</button>
+                </div>
+
+                <div id="message501" class="message"></div>
+            </div>
+
+            <!-- Cricket Game -->
+            <div class="game-interface" id="gameCricket">
+                <div class="game-header">
+                    <button class="btn back-btn" onclick="backToModes()">← Back</button>
+                    <h3 style="font-family: 'Orbitron', sans-serif; font-size: 2rem;">Cricket - Two Players</h3>
+                    <button class="btn" onclick="resetGame('cricket')">New Game</button>
+                </div>
+
+                <div class="cricket-players-header">
+                    <div class="cricket-player-indicator" id="cricketPlayer1Indicator">
+                        <h4>Player 1</h4>
+                        <div class="current-badge">CURRENT</div>
+                    </div>
+                    <div class="cricket-player-indicator" id="cricketPlayer2Indicator" style="opacity: 0.5;">
+                        <h4>Player 2</h4>
+                        <div class="current-badge" style="display: none;">CURRENT</div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <p style="color: var(--text-secondary); font-size: 1.1rem;">
+                        Hit each number 3 times to close it out. Click on a number to add a mark!
+                    </p>
+                </div>
+
+                <div class="cricket-boards-container">
+                    <div class="cricket-board-wrapper">
+                        <h5 style="text-align: center; margin-bottom: 1rem; color: var(--neon-green);">Player 1</h5>
+                        <div class="cricket-board" id="cricketBoardPlayer1"></div>
+                    </div>
+                    <div class="cricket-board-wrapper">
+                        <h5 style="text-align: center; margin-bottom: 1rem; color: var(--accent-blue);">Player 2</h5>
+                        <div class="cricket-board" id="cricketBoardPlayer2"></div>
+                    </div>
+                </div>
+
+                <div id="messageCricket" class="message"></div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-folders" id="galleryFolders"></div>
+            </div>
+        </section>
+
+        <!-- Image Lightbox Modal -->
+        <div id="imageModal" class="image-modal">
+            <span id="imageModalClose" class="image-modal-close">&times;</span>
+            <img id="imageModalImg" class="image-modal-content" alt="">
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="standings-link" style="text-align: left; margin-top: 1rem;">
+                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 1.5rem;">
+                    Have a question about fixtures, rules, or joining the league? Get in touch with the
+                    committee and we will respond as soon as possible.
+                </p>
+                <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1.5rem;">
+                    You can email us directly at <strong>info@bermudadartsleague.com</strong> or use the
+                    contact form below.
+                </p>
+                <button class="btn" id="contactOpenBtn">Contact Us</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="contact-modal">
+        <div class="contact-modal-content">
+            <button id="contactCloseBtn" class="contact-modal-close" aria-label="Close contact form">&times;</button>
+            <h3>Send Us a Message</h3>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="contactName">Name</label>
+                    <input type="text" id="contactName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email</label>
+                    <input type="email" id="contactEmail" name="reply_to" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactPhone">Phone</label>
+                    <input type="tel" id="contactPhone" name="phone" placeholder="Optional">
+                </div>
+                <div class="form-group">
+                    <label for="contactSubject">Subject</label>
+                    <input type="text" id="contactSubject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage">Message</label>
+                    <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
